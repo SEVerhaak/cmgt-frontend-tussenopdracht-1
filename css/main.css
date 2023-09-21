@@ -1,0 +1,156 @@
+html {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    margin-top: 4.5rem;
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+}
+
+footer {
+    color: black;
+    background-color: black;
+    padding: 1rem;
+    margin-top: 6rem;
+}
+
+h2 {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+footer {
+    text-align: center;
+}
+
+a {
+    padding: 1rem 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background-color: black;
+}
+
+nav {
+    padding-left: 20rem;
+    width: 100%;
+    background-color: #FF005A;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.mainImg {
+    width: 50%;
+    height: 45%;
+    margin-bottom: 3rem;
+}
+
+.navBar {
+    /* background-color: darkcyan; */
+    padding-bottom: 1rem;
+}
+
+.navBarImg {
+    margin-right: 0.5rem;
+}
+
+.relatedArticlesFlexBox {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.articleFlexbox {
+    display: flex;
+    gap: 4rem;
+}
+
+.mainTitleFlexBox {
+    display: flex;
+    gap: 8rem;
+}
+
+.mainTitle {
+    font-size: 3rem;
+}
+
+.productDescriptionFlexBox {
+    /* display: flex; */
+}
+
+.productDescription {
+    font-size: 1.25rem;
+}
+
+.plusMinusBox {
+    background-color: #FF005A;
+    margin: 2rem 0rem;
+    padding-left: 2rem;
+    padding-right: 8rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.plusMinus {
+    padding-right: 5rem;
+}
+
+.articleDescriptionBox {
+    margin: 2rem 0rem;
+    padding-left: 2rem;
+    padding-right: 8rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.productTitle {
+    margin: 1rem 0rem;
+}
+
+.relatedTitle {
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.mainArticle {
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.article {
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.relatedArticles {
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+.infoButton {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: 0.2rem solid #FF005A;
+    background-color: transparent;
+    color: white;
+}
+
+.infoButton:hover {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: 0.2rem solid #FF005A;
+    border-radius: 0.5rem;
+    background-color: #FF005A;
+    color: white;
+}
